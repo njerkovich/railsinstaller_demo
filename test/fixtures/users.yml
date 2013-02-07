@@ -9,3 +9,9 @@ jim:
   last_name: "Hoskins"
   email: "jim@teamtreehouse.com"
   profile_name: "jimhoskins"
+
+mike:
+  First_name: "Mike"
+  last_name: "TheFrog"
+  email: "mike@teamtreehouse.com"
+  profile_name: "mikethefrog"

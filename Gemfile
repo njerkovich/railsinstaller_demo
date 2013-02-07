@@ -7,15 +7,9 @@ gem 'rails', '3.2.1'
 
 gem 'devise'
 gem 'simple_form'
-gem 'progress_bar'
-gem 'sunspot_rails'
-group :development do
-	
-end
 
 group :development, :test do 
-		gem 'sqlite3'
-		gem 'sunspot_solr'
+	gem 'sqlite3'
 end
 
 group :production do
@@ -24,7 +18,7 @@ end
 
 
 
-# Gems used only for assets and not required
+ # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -52,3 +46,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+group :test do
+	gem 'shoulda'
+	gem 'shoulda-matchers'
+	gem 'shoulda-context'
+end
