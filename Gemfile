@@ -7,9 +7,15 @@ gem 'rails', '3.2.1'
 
 gem 'devise'
 gem 'simple_form'
+gem 'progress_bar'
+gem 'sunspot_rails'
+group :development do
+	
+end
 
 group :development, :test do 
 		gem 'sqlite3'
+		gem 'sunspot_solr'
 end
 
 group :production do
